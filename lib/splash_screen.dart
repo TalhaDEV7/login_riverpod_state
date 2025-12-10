@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 [Colors.blue.shade700, Colors.blue.shade300],
                 [Colors.blue.shade600, Colors.blue.shade200],
               ],
-              durations: [35000, 19440, 10800],
+              durations: [9000, 6000, 3000],
               heightPercentages: [0.20, 0.23, 0.26],
               gradientBegin: Alignment.bottomLeft,
               gradientEnd: Alignment.topRight,
@@ -64,17 +64,9 @@ class _SplashScreenState extends State<SplashScreen> {
 
                 SizedBox(height: 18),
 
-                Text(
-                  "Wave App",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 34,
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: 1.5,
-                  ),
-                ),
+                
 
-                SizedBox(height: 6),
+               
 
                 Text(
                   "Loading...",
